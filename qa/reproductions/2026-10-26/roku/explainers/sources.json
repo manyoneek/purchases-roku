@@ -1,0 +1,116 @@
+{
+  "network": [
+    {
+      "scene": "intro",
+      "seconds": 6,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "before",
+      "seconds": 7,
+      "source": "captures/network-before/recording.webm",
+      "start": 2.8
+    },
+    {
+      "scene": "cause",
+      "seconds": 10,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "fix",
+      "seconds": 8,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "after",
+      "seconds": 8,
+      "source": "captures/network-after/recording.webm",
+      "start": 2.8
+    },
+    {
+      "scene": "verified",
+      "seconds": 8,
+      "source": null,
+      "start": null
+    }
+  ],
+  "nonsub": [
+    {
+      "scene": "intro",
+      "seconds": 6,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "before",
+      "seconds": 7,
+      "source": "captures/lifetime-before/recording.webm",
+      "start": 2.8
+    },
+    {
+      "scene": "cause",
+      "seconds": 9,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "fix",
+      "seconds": 7,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "after",
+      "seconds": 8,
+      "source": "captures/lifetime-after/recording.webm",
+      "start": 2.8
+    },
+    {
+      "scene": "verified",
+      "seconds": 8,
+      "source": null,
+      "start": null
+    }
+  ],
+  "config": [
+    {
+      "scene": "intro",
+      "seconds": 6,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "before",
+      "seconds": 7,
+      "source": "captures/loglevel-before/recording.webm",
+      "start": 2.8
+    },
+    {
+      "scene": "cause",
+      "seconds": 9,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "fix",
+      "seconds": 8,
+      "source": null,
+      "start": null
+    },
+    {
+      "scene": "after",
+      "seconds": 8,
+      "source": "captures/loglevel-after/recording.webm",
+      "start": 2.8
+    },
+    {
+      "scene": "verified",
+      "seconds": 8,
+      "source": null,
+      "start": null
+    }
+  ]
+}

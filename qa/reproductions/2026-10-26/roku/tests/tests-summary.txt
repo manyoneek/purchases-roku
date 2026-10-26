@@ -1,0 +1,15 @@
+roku-fix-network f9fb0d9 fixed: cases_ok=30 cases_not_ok=0 finished=EXIT_USER_NAV exit=0
+roku-fix-network upstream-sdk: cases_ok=27 cases_not_ok=3 finished=EXIT_USER_NAV exit=0
+    not ok  1 - Returns a network error when getCustomerInfo cannot reach the server
+    not ok  2 - Returns a network error when getOfferings cannot reach the server
+    not ok  3 - Returns a network error when logIn cannot reach the server
+roku-fix-nonsub a73c6b5 fixed: cases_ok=29 cases_not_ok=0 finished=EXIT_USER_NAV exit=0
+roku-fix-nonsub upstream-sdk: cases_ok=27 cases_not_ok=2 finished=EXIT_USER_NAV exit=0
+    not ok  3 - Includes subscription and non-subscription products in allPurchasedProductIds
+    not ok  4 - Includes non-subscription products in allPurchasedProductIds without subscriptions
+roku-fix-config 6708a44 fixed: cases_ok=30 cases_not_ok=0 finished=EXIT_USER_NAV exit=0
+roku-fix-config upstream-sdk: cases_ok=27 cases_not_ok=3 finished=EXIT_USER_NAV exit=0
+    not ok  6 - Keeps the configuration when setting the log level
+    not ok  7 - Keeps the configuration when setting the proxy URL
+    not ok  8 - Keeps the log level and proxy URL set before configuring
+upstream baseline 3011f85: cases_ok=27 cases_not_ok=0 finished=EXIT_USER_NAV exit=0

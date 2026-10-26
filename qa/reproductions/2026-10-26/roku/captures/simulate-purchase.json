@@ -1,0 +1,63 @@
+{
+  "data": {
+    "active_entitlements": [],
+    "app_id": "app4ca00b430f",
+    "app_user_id": "bug-reporter-roku-lifetime-20261026061659",
+    "customer_info": {
+      "request_date": "2026-10-26T09:17:00Z",
+      "request_date_ms": 1793006220437,
+      "subscriber": {
+        "entitlements": {},
+        "first_seen": "2026-10-26T09:17:00Z",
+        "last_seen": "2026-10-26T09:17:00Z",
+        "management_url": null,
+        "non_subscriptions": {
+          "bug_reporter_lifetime": [
+            {
+              "display_name": "QA Lifetime",
+              "id": "o1_U8xl43eXLxwoVeLvWYsAtA",
+              "is_sandbox": true,
+              "original_purchase_date": "2026-10-26T09:17:00Z",
+              "price": {
+                "amount": 19.99,
+                "currency": "USD"
+              },
+              "purchase_date": "2026-10-26T09:17:00Z",
+              "store": "test_store",
+              "store_transaction_id": "TEST_1793006220037_f0a51d7088a68edba8a64fc47f46f51d"
+            }
+          ]
+        },
+        "original_app_user_id": "bug-reporter-roku-lifetime-20261026061659",
+        "original_application_version": null,
+        "original_purchase_date": null,
+        "other_purchases": {
+          "bug_reporter_lifetime": {
+            "display_name": "QA Lifetime",
+            "price": {
+              "amount": 19.99,
+              "currency": "USD"
+            },
+            "purchase_date": "2026-10-26T09:17:00Z"
+          }
+        },
+        "subscriptions": {}
+      }
+    },
+    "fetch_token": "TEST_1793006220037_f0a51d7088a68edba8a64fc47f46f51d",
+    "product": {
+      "app_id": "app4ca00b430f",
+      "created_at": 1792227816631,
+      "display_name": "QA Lifetime",
+      "id": "prod49bcf1486e",
+      "object": "product",
+      "one_time": {
+        "is_consumable": false
+      },
+      "state": "active",
+      "store_identifier": "bug_reporter_lifetime",
+      "type": "non_consumable"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,10 @@
+{
+  "app": "fixed-nonsub",
+  "scenario": "lifetime",
+  "userId": "bug-reporter-roku-lifetime-20261026061659",
+  "proxyPath": "/rc/v1/",
+  "sdk": "fix a73c6b5",
+  "outcome": "pass",
+  "durationMs": 10914,
+  "finishedAt": "2026-10-26T09:28:11.579Z"
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RC Roku Repro</title>
+<style>
+  html, body { margin: 0; background: #000; }
+  #display { display: block; width: 1280px; height: 720px; }
+</style>
+</head>
+<body>
+<canvas id="display" width="1280" height="720"></canvas>
+<video id="player" crossorigin="anonymous" style="display:none"></video>
+<script src="brs.api.js"></script>
+<script>
+const params = new URLSearchParams(location.search);
+window.reproEvents = [];
+window.reproConsole = [];
+const origLog = console.log;
+async function main() {
+  const extensions = new Map();
+  extensions.set(brs.SupportedExtension.SceneGraph, "./brs-sg.js");
+  brs.subscribe("repro", (event, data) => {
+    window.reproEvents.push({ event, data: typeof data === "string" ? data : JSON.stringify(data ?? null).slice(0, 2000), at: Date.now() });
+  });
+  await brs.initialize({ developerId: "rcbugreporter", locale: "en_US", displayMode: "720p", maxFps: 30, extensions }, { debugToConsole: true, showStats: false });
+  // The engine downloads its common assets asynchronously after initialize()
+  await new Promise((r) => setTimeout(r, 2500));
+  const zip = await (await fetch("apps/" + params.get("app"))).arrayBuffer();
+  const deepLink = new Map();
+  for (const key of ["scenario", "userId", "proxyUrl", "sdk"]) deepLink.set(key, params.get(key) ?? "");
+  deepLink.set("apiKey", window.__rcKey ?? "");
+  brs.execute(params.get("app"), zip, { entryPoint: true, debugOnCrash: false, clearDisplayOnExit: false }, deepLink);
+}
+window.addEventListener("load", main);
+</script>
+</body>
+</html>

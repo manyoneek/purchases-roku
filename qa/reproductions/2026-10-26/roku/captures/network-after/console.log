@@ -1,0 +1,32 @@
+%cBrightScript Simulation Engine - v2.6.2
+ color: #4A90E2
+[video] DRM detection fallback due to: unsupported key systems
+Failed to load resource: the server responded with a status of 404 (Not Found)
+%cLoading fixed-network.zip...
+ color: #4A90E2
+------ Running dev 'RC Roku Repro' main ------
+
+%c10-26 09:27:40.268 [scrpt.ctx.run.enter] UI: Entering 'RC Roku Repro', id '175587704'
+ color: #4A90E2
+[repro] 1. Purchases().configure({ apiKey, userId, proxyUrl })
+
+[repro] 2. The connection to RevenueCat drops (endpoint closes every connection)
+
+[repro] 3. Purchases().getCustomerInfo(callback)
+
+[repro] Expected: callback(invalid, error) with an error code
+
+[repro] Waiting for the callback...
+
+BRIGHTSCRIPT: ERROR: ParseJSON: Data is empty: pkg:/source/Purchases.brs(1246)
+
+[repro] Callback: subscriber=invalid, error=roAssociativeArray
+
+[repro] error.code=10  codeName="NETWORK_ERROR"
+
+[repro] RESULT: PASS - the app gets an error it can handle
+
+%c10-26 09:27:46.859 [beacon.report] |AppExitComplete
+ color: #4A90E2
+------ Finished 'RC Roku Repro' execution [EXIT_USER_NAV] ------
+

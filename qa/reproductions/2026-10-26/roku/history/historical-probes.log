@@ -1,0 +1,62 @@
+38fa0f5: no source/Purchases.brs
+== 5c95096 (5c95096 2024-06-27)
+PROBE nonsub exception=Function Call Operator ( ) attempted on non-function.
+PROBE config exception=Function Call Operator ( ) attempted on non-function.
+PROBE network exception=Function Call Operator ( ) attempted on non-function.
+------ Finished 'rev-5c95096.zip' execution [EXIT_USER_NAV] ------
+== 11242c03 (11242c0 2024-06-28)
+PROBE nonsub exception=Function Call Operator ( ) attempted on non-function.
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network error=null dataType=roInvalid
+------ Finished 'rev-11242c03.zip' execution [EXIT_USER_NAV] ------
+== b9ecc1b (b9ecc1b 2024-07-07)
+PROBE nonsub allPurchasedProductIds=["lifetime_pro"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-b9ecc1b.zip' execution [EXIT_USER_NAV] ------
+== 5dcd55d^ (6f1bc8b 2024-09-02)
+pkg:/source/Purchases.brs(7,12-20): Invalid #If/#ElseIf expression (<CONST-NAME> not defined) 'runTests' (compile error &h92)
+------ Finished 'rev-5dcd55dp.zip' execution [EXIT_BRIGHTSCRIPT_CRASH] ------
+== 5dcd55d (5dcd55d 2024-09-02)
+pkg:/source/Purchases.brs(7,12-20): Invalid #If/#ElseIf expression (<CONST-NAME> not defined) 'runTests' (compile error &h92)
+------ Finished 'rev-5dcd55d.zip' execution [EXIT_BRIGHTSCRIPT_CRASH] ------
+== 0.0.1 (bb1dfc3 2024-08-14)
+PROBE nonsub allPurchasedProductIds=["lifetime_pro"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-0.0.1.zip' execution [EXIT_USER_NAV] ------
+== 0.0.2 (95ecf74 2024-09-12)
+PROBE nonsub allPurchasedProductIds=["<<uninitialized>>"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-0.0.2.zip' execution [EXIT_USER_NAV] ------
+== 0.0.3 (2c1d5e9 2025-02-05)
+PROBE nonsub allPurchasedProductIds=["<<uninitialized>>"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-0.0.3.zip' execution [EXIT_USER_NAV] ------
+== 0.0.4 (c52b531 2025-03-08)
+PROBE nonsub allPurchasedProductIds=["<<uninitialized>>"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-0.0.4.zip' execution [EXIT_USER_NAV] ------
+== 0.0.5 (b86b99a 2025-07-17)
+PROBE nonsub allPurchasedProductIds=["<<uninitialized>>"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-0.0.5.zip' execution [EXIT_USER_NAV] ------
+== 3011f85 (3011f85 2026-07-02)
+PROBE nonsub allPurchasedProductIds=["<<uninitialized>>"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-3011f85.zip' execution [EXIT_USER_NAV] ------
+== rev-5dcd55dp (bs_const runTests=false)
+PROBE nonsub allPurchasedProductIds=["lifetime_pro"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-5dcd55dp.zip' execution [EXIT_USER_NAV] ------
+== rev-5dcd55d (bs_const runTests=false)
+PROBE nonsub allPurchasedProductIds=["<<uninitialized>>"]
+PROBE config configuredBefore=true configuredAfterSetLogLevel=false
+PROBE network exception='Dot' Operator attempted with invalid BrightScript Component or interface reference.
+------ Finished 'rev-5dcd55d.zip' execution [EXIT_USER_NAV] ------

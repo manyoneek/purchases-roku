@@ -1,0 +1,10 @@
+{
+  "app": "fixed-config",
+  "scenario": "loglevel",
+  "userId": "bug-reporter-roku-loglevel-20261026062729",
+  "proxyPath": "/rc/v1/",
+  "sdk": "fix 6708a44",
+  "outcome": "pass",
+  "durationMs": 11599,
+  "finishedAt": "2026-10-26T09:28:31.193Z"
+}

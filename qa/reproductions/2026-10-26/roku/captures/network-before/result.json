@@ -1,0 +1,10 @@
+{
+  "app": "before",
+  "scenario": "network",
+  "userId": "bug-reporter-roku-network-20261026062729",
+  "proxyPath": "/offline/v1/",
+  "sdk": "main 3011f85",
+  "outcome": "crash",
+  "durationMs": 7179,
+  "finishedAt": "2026-10-26T09:27:37.057Z"
+}

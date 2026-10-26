@@ -1,0 +1,10 @@
+{
+  "app": "fixed-network",
+  "scenario": "network",
+  "userId": "bug-reporter-roku-network-20261026062729",
+  "proxyPath": "/offline/v1/",
+  "sdk": "fix f9fb0d9",
+  "outcome": "pass",
+  "durationMs": 11435,
+  "finishedAt": "2026-10-26T09:27:48.891Z"
+}

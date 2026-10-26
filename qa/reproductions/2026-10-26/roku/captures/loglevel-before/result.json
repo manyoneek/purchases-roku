@@ -1,0 +1,10 @@
+{
+  "app": "before",
+  "scenario": "loglevel",
+  "userId": "bug-reporter-roku-loglevel-20261026062729",
+  "proxyPath": "/rc/v1/",
+  "sdk": "main 3011f85",
+  "outcome": "crash",
+  "durationMs": 7198,
+  "finishedAt": "2026-10-26T09:28:19.195Z"
+}

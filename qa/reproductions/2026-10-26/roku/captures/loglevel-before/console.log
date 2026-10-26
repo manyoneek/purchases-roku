@@ -1,0 +1,28 @@
+%cBrightScript Simulation Engine - v2.6.2
+ color: #4A90E2
+[video] DRM detection fallback due to: unsupported key systems
+Failed to load resource: the server responded with a status of 404 (Not Found)
+%cLoading before.zip...
+ color: #4A90E2
+------ Running dev 'RC Roku Repro' main ------
+
+%c10-26 09:28:14.804 [scrpt.ctx.run.enter] UI: Entering 'RC Roku Repro', id '517417010'
+ color: #4A90E2
+[repro] 1. Purchases().configure({ apiKey, userId, proxyUrl })
+
+[repro]    isConfigured() = true
+
+[repro] 2. Purchases().setLogLevel("debug")
+
+[repro]    isConfigured() = false   proxyURL() = invalid
+
+[repro] 3. Purchases().getCustomerInfo(callback)
+
+[repro] Expected: the configured SDK fetches this customer
+
+pkg:/source/Purchases.brs(187,16-52): Purchases SDK not configured
+
+%c10-26 09:28:17.347 [beacon.report] |AppExitComplete
+ color: #4A90E2
+------ Finished 'RC Roku Repro' execution [EXIT_BRIGHTSCRIPT_CRASH] ------
+

@@ -1,0 +1,10 @@
+{
+  "app": "before",
+  "scenario": "lifetime",
+  "userId": "bug-reporter-roku-lifetime-20261026061659",
+  "proxyPath": "/rc/v1/",
+  "sdk": "main 3011f85",
+  "outcome": "fail",
+  "durationMs": 10954,
+  "finishedAt": "2026-10-26T09:28:00.245Z"
+}
